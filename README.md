@@ -60,32 +60,9 @@ uncompyle2 requires Python 2.7
 Installation
 ------------
 
-You may either create a RPM and install this, or install directly from
-the source distribution.
-
-Creating RPMS:
-
-  python setup.py bdist_rpm
-
-  If you need to force the python interpreter to eg. pyton2:
-     python2 setup.py bdist_rpm --python=python2
-
-
 Installation from the source distribution:
 
-     python setup.py install
-
-   To install to a user's home-dir:
-     python setup.py install --home=<dir>
-
-   To install to another prefix (eg. /usr/local)
-     python setup.py install --prefix=/usr/local
-
-  If you need to force the python interpreter to eg. pyton2:
-     python2 setup.py install
-
-  For more information on 'Installing Python Modules' please refer to
-     http://www.python.org/doc/current/inst/inst.html
+     pip install uncompyle2
 
 
 Usage
